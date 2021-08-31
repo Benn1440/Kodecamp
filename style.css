@@ -1,0 +1,433 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  
+  
+}
+#container1{
+    text-align: center;
+    margin-top: 0rem;
+    margin-left: 20rem;
+    margin-right: 20rem; 
+    font-family: 'Karla', sans-serif;
+     
+}
+.first {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.Profile {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;  
+}
+
+.social {
+    margin: 30px 0;
+}
+.twitt {
+    padding: 0 15px;
+}
+.about {
+    display: flex;
+    gap: 11%;
+    max-width: 50%; 
+    margin:auto; 
+}
+.about .one, .about .two {
+    margin-top: 0px;
+    gap: 5%;  
+}
+.container {
+    text-align: center;
+    margin: 70px;
+    max-width: 80%;
+}
+
+.clean a {
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 0.918);
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.BOX1 img {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15%;
+    height: 300px;
+    border-spacing: 20%;
+    
+}
+.BOX2 img {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15%;
+    height: 300px;
+    border-spacing: 20%;
+    
+}
+.BOX3 img {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15%;
+    height: 300px;
+    border-spacing: 20%;
+    
+}
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.BOX4 img {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15%;
+    height: 300px;
+    border-spacing: 20%;
+}
+.BOX5 img {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15%;
+    height: 300px;
+    border-spacing: 20%;
+}
+.BOX6 img {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15%;
+    height: 300px;
+    border-spacing: 20%;
+}
+.box99 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box99 a {
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 0.918);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px oldlace;
+    padding: 20px;
+   
+    
+}
+
+.joy {
+    display: flex;
+    gap: 5%;
+    max-width: 50%; 
+    margin:auto; 
+    justify-content: space-between; 
+}
+.joy h5 {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    word-spacing: 5px;
+    text-overflow: clip;
+    text-align-last: auto;
+}
+
+.rise {
+    display: flex;
+    gap: 11%;
+    max-width: 50%; 
+    margin:auto; 
+}
+.rise p{
+    width: 50%;
+    text-overflow: clip;
+    font-family: monospace;
+    font-size: 15px;
+}
+.rise h1 {
+    font-family:'Karla', sans-serif; 
+}
+.Sub {
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    max-width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Sub p{
+    color: rgb(228, 220, 222); 
+    margin: 50px; 
+   font-size: 20Px;
+   font-family: fantasy;
+       
+}
+.SubImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%; 
+}
+.area1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.bottom {
+    text-align: center;
+    background-color: #534a4a;  
+    padding: 50px;  
+}
+
+@media screen and (max-width: 540px) {
+    #container1 {
+        width: 50%;
+        padding: 20px;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .container h1 {
+        margin: auto;
+    }
+    img.Profile {
+        justify-content: center;
+        max-width: 80%;
+    }
+    .clean {
+        max-width: 80%;
+        margin: 20px; 
+        padding: 15px;
+    }
+    .clean h1 {
+        max-width: 60%;
+        margin: 60px;
+        text-align: center;
+    }
+    .MAIN {
+        max-width: 50%;
+        margin: 100px;
+        padding: 40px;   
+    }
+    .flex-container1 {
+        display: table-row;
+        justify-items: center;
+    }
+    .flex-container2 {
+        display: table-row;
+        justify-items: center;
+    }
+    .area1 {
+        max-width: 75%;
+        margin: 50px;
+    }
+    
+    .Sub h1 {
+        max-width: 50%;
+        margin: 100px;
+    }
+    .joy {
+        max-width: 50%;
+        padding: 30px;
+        column-gap: 10px;
+    }
+    .joy p {
+        margin: 5px;
+    }
+    .joy h5 {
+        margin: 5px;
+        padding-top: 7px;
+    }
+    .rise {
+        max-width: 50%;
+        padding: 30px;
+        column-gap: 10px;
+    }   
+    .box99 a {
+        padding: 10px;
+        margin: 50px;
+    }
+    .bottom {
+        max-width: 50%;
+        margin: 100px;
+    }
+
+    
+@media screen and (max-width: 360px) {
+    .container {
+        max-width: 80%;
+        margin: 30px;
+        padding: 30px;
+        justify-content: space-evenly;
+        
+    }
+    .about{
+        justify-content: space-evenly;
+    }
+    #container1 {
+        width: 50%;
+        padding: 20px;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .container h1 {
+        text-align: center;
+        padding-left: 15px;
+        margin: 10px;
+        justify-content: space-evenly;
+    }
+    img.Profile {
+        justify-content: center;
+        max-width: 80%;
+    }
+    .clean {
+        max-width: 50%;
+        justify-self: center;
+        margin: 20px; 
+        padding: 15px;
+    }
+    .clean h1 {
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+    }
+    .MAIN {
+        max-width: 50%;
+        margin: 20px;
+        padding: 40px;   
+    }
+    .flex-container1 {
+        display: table-row;
+        justify-items: center;
+    }
+    .flex-container2 {
+        display: table-row;
+        justify-items: center;
+    }
+    .area1 {
+        max-width: 75%;
+        margin: 50px;
+    }
+    .sub {
+        max-width: 80%;
+        justify-content: space-evenly;
+    }
+    .Sub h1 {
+        max-width: 50%;
+        margin: 30px;
+        word-wrap:inherit;
+        align-items: center; 
+    }
+    .sub p {
+        font-size: 5px;
+        word-spacing: 2px;
+
+    }
+    .joy {
+        max-width: 50%;
+        padding: 30px;
+        column-gap: 10px;
+        justify-items: right;
+        justify-content: space-evenly;
+    }
+    .joy p {
+        margin: 5px;
+    }
+    .joy h5 {
+        margin: 5px;
+        padding-top: 7px;
+    }
+    .rise {
+        max-width: 50%;
+        padding: 30px;
+        column-gap: 10px;
+        justify-content: space-evenly;
+    }   
+    .box99 a {
+        padding: 10px;
+        margin: 50px;
+    }
+    .bottom {
+        max-width: 80%;
+        margin: 100px;
+    }
+    @media screen and (max-width: 540px) {
+        #container1 {
+            width: 50%;
+            padding: 20px;
+            margin: auto;
+            flex-wrap: wrap;
+        }
+        .container h1 {
+            margin: auto;
+        }
+        img.Profile {
+            justify-content: center;
+            max-width: 80%;
+        }
+        .clean {
+            max-width: 80%;
+            margin: 20px; 
+            padding: 15px;
+        }
+        .clean h1 {
+            max-width: 60%;
+            margin: 60px;
+            text-align: center;
+        }
+        .MAIN {
+            max-width: 50%;
+            margin: 100px;
+            padding: 40px;   
+        }
+        .flex-container1 {
+            display: table-row;
+            justify-items: center;
+        }
+        .flex-container2 {
+            display: table-row;
+            justify-items: center;
+        }
+        .area1 {
+            max-width: 75%;
+            margin: 50px;
+        }
+        
+        .Sub h1 {
+            max-width: 50%;
+            margin: 100px;
+        }
+        .joy {
+            max-width: 50%;
+            padding: 30px;
+            column-gap: 10px;
+        }
+        .joy p {
+            margin: 5px;
+        }
+        .joy h5 {
+            margin: 5px;
+            padding-top: 7px;
+        }
+        .rise {
+            max-width: 50%;
+            padding: 30px;
+            column-gap: 10px;
+        }   
+        .box99 a {
+            padding: 10px;
+            margin: 50px;
+        }
+        .bottom {
+            max-width: 50%;
+            margin: 100px;
+        }
+    
+        
+   
